@@ -5,9 +5,9 @@ import type * as Preset from "@docusaurus/preset-classic";
 const config: Config = {
   title: "Ekke Docs",
   tagline: "White-label e-commerce frontend on Fynd Platform",
-  favicon: "img/favicon.ico",
+  favicon: "img/favicon.png",
 
-  url: "https://your-docs-site.vercel.app",
+  url: "https://akke-docs.vercel.app",
   baseUrl: "/",
 
   organizationName: "harshchanchad",
@@ -50,7 +50,7 @@ const config: Config = {
       title: "Ekke",
       logo: {
         alt: "Ekke Logo",
-        src: "img/logo.svg",
+        src: "img/ekke-logo.png",
       },
       items: [
         {
