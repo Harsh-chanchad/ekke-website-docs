@@ -7,7 +7,7 @@ const config: Config = {
   tagline: "White-label e-commerce frontend on Fynd Platform",
   favicon: "img/favicon.png",
 
-  url: "https://akke-docs.vercel.app",
+  url: "https://ekke-docs.vercel.app",
   baseUrl: "/",
 
   organizationName: "harshchanchad",
