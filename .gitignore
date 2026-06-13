@@ -1,0 +1,15 @@
+# Dependencies
+node_modules/
+website/node_modules/
+
+# Docusaurus build output
+website/build/
+website/.docusaurus/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*

@@ -1,0 +1,56 @@
+/**
+ * Ekke Docs — Custom Docusaurus CSS
+ * Overrides Docusaurus defaults with Ekke brand tokens.
+ */
+
+:root {
+  --ifm-color-primary: #1a1a2e;
+  --ifm-color-primary-dark: #16162a;
+  --ifm-color-primary-darker: #141428;
+  --ifm-color-primary-darkest: #101021;
+  --ifm-color-primary-light: #1e1e32;
+  --ifm-color-primary-lighter: #202036;
+  --ifm-color-primary-lightest: #26263d;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  --ifm-font-family-base: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, sans-serif;
+  --ifm-heading-font-weight: 700;
+  --ifm-navbar-height: 60px;
+}
+
+[data-theme="dark"] {
+  --ifm-color-primary: #7c82e8;
+  --ifm-color-primary-dark: #6a70e4;
+  --ifm-color-primary-darker: #6068e2;
+  --ifm-color-primary-darkest: #3f48da;
+  --ifm-color-primary-light: #8e94ec;
+  --ifm-color-primary-lighter: #989eee;
+  --ifm-color-primary-lightest: #b9bcf4;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+/* Sidebar */
+.menu__link {
+  font-size: 0.9rem;
+}
+
+/* Tables */
+table {
+  display: table;
+  width: 100%;
+}
+
+/* Code blocks */
+.prism-code {
+  font-size: 0.875rem;
+}
+
+/* Hero section on landing */
+.hero--primary {
+  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+}
+
+/* Navbar */
+.navbar {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}

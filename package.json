@@ -1,0 +1,10 @@
+{
+  "name": "akke-docs",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "docs:dev": "npm --prefix website start",
+    "docs:build": "npm --prefix website run build",
+    "docs:serve": "npm --prefix website run serve"
+  }
+}
